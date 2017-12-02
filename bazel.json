@@ -1,0 +1,16 @@
+{
+    "homepage": "https://bazel.build/",
+    "version": "0.8.0",
+    "license": "Apache License 2.0",
+    "depends": [ "python27", "msys2", "git", "curl", "zip", "unzip" ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/0.8.0/bazel-0.8.0-windows-x86_64.zip",
+            "hash": "249dcbab4e4f2cf9638ebdf9597f0501583c19bcb1fef2a0593a193f4a48e12c"
+        }
+    },
+    "env_set": {
+        "BAZEL_SH": "$(appdir msys2)/current/usr/bin/bash"
+    },
+    "bin": "bazel.exe"
+}
