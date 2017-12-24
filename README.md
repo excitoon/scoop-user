@@ -9,6 +9,7 @@ scoop bucket add user https://github.com/excitoon/scoop-user.git
 ```
 scoop install user/automake
 scoop install user/epub2txt
+scoop install user/etcd
 ```
 
 ##### Bazel
