@@ -11,6 +11,7 @@ scoop install user/automake
 scoop install user/epub2txt
 scoop install user/etcd
 scoop install user/xmouse # X-Mouse Controls
+scoop install user/winmerge
 ```
 
 ##### Bazel
