@@ -14,6 +14,7 @@ scoop install user/xmouse # X-Mouse Controls
 scoop install user/winmerge
 scoop install user/make
 scoop install user/dllexp
+scoop install user/depends # Dependency Walker
 ```
 
 ##### Bazel
