@@ -13,6 +13,7 @@ scoop install user/etcd
 scoop install user/xmouse # X-Mouse Controls
 scoop install user/winmerge
 scoop install user/make
+scoop install user/dllexp
 ```
 
 ##### Bazel
