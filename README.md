@@ -17,6 +17,7 @@ scoop install user/dllexp
 scoop install user/depends # Dependency Walker
 scoop install user/petools
 scoop install user/xsltproc
+scoop install user/socat
 ```
 
 ##### Bazel
