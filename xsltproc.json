@@ -14,6 +14,11 @@
         "d3ba3f0ffb1632d7c395d5dbe135a7f996d8abb4495df81e9ee81549706d36e1",
         "a2e4f72910b7eb105bf9fc0fcea0af60bd6b441d279a7b8cf24de2c7ebc52a6e"
     ],
-    "pre_install": "Copy-Item $dir/*/bin/* $dir/",
-    "bin": "xsltproc.exe"
+    "extract_dir": [
+        "iconv-1.9.2.win32",
+        "libxml2-2.7.8.win32",
+        "libxslt-1.1.26.win32",
+        "zlib-1.2.5"
+    ],
+    "bin": "bin/xsltproc.exe"
 }
