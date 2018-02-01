@@ -1,0 +1,8 @@
+{
+    "homepage": "http://win-bash.sourceforge.net/",
+    "version": "1.14.2",
+    "license": "GNU General Public License",
+    "url": "http://downloads.sourceforge.net/project/win-bash/shell-complete/latest/shell.w32-ix86.zip",
+    "hash": "dfc7f9ff287592b03ce236c0d056eaaae178f33a691385320c176b2a8306faf3",
+    "bin": [ "bash.exe", "sh.exe" ]
+}

@@ -19,6 +19,7 @@ scoop install user/petools
 scoop install user/xsltproc
 scoop install user/socat
 scoop install user/openssh
+scoop install user/bash
 ```
 
 ##### Bazel
