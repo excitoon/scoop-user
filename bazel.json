@@ -1,12 +1,12 @@
 {
     "homepage": "https://bazel.build/",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "license": "Apache License 2.0",
     "depends": [ "python27", "msys2", "git", "curl", "zip", "unzip" ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bazelbuild/bazel/releases/download/0.9.0/bazel-0.9.0-windows-x86_64.zip",
-            "hash": "968f405008be640642af69f33fd6723a571ba948c10161e9ef4c01df7376252d"
+            "url": "https://github.com/bazelbuild/bazel/releases/download/0.10.0/bazel-0.10.0-windows-x86_64.zip",
+            "hash": "edfce312840c070a5e478f3ef5bbc309b11c2c2630af1e6c787e4e9674781380"
         }
     },
     "env_set": {
