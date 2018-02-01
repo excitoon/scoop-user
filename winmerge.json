@@ -4,5 +4,6 @@
     "license": "GNU General Public License",
     "url": "http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-exe.zip",
     "hash": "9c77580ff9594536ce84dbbf0095e4b8654892a713989c378b9349c833c0f177",
-    "bin": [ [ "WinMerge-2.14.0-exe/WinMergeU.exe", "winmerge", "" ] ]
+    "extract_dir": "WinMerge-2.14.0-exe",
+    "bin": [ [ "WinMergeU.exe", "winmerge", "" ] ]
 }
