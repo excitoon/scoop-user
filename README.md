@@ -21,6 +21,7 @@ scoop install user/socat
 scoop install user/openssh
 scoop install user/bash
 scoop install user/infozip
+scoop install user/noextrun
 ```
 
 ##### Bazel
