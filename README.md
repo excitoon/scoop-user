@@ -22,6 +22,7 @@ scoop install user/openssh
 scoop install user/bash
 scoop install user/infozip
 scoop install user/noextrun
+scoop install user/offzip
 ```
 
 ##### Bazel
