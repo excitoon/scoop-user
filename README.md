@@ -23,6 +23,7 @@ scoop install user/bash
 scoop install user/infozip
 scoop install user/noextrun
 scoop install user/offzip
+scoop install user/privoxy
 ```
 
 ##### Bazel
