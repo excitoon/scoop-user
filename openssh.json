@@ -52,5 +52,5 @@
         "usr/bin/ssh-keyscan.exe",
         "usr/bin/sshd.exe"
     ],
-    "pre_install": [ "mkdir $dir/tmp" ]
+    "pre_install": [ "mkdir $dir/tmp", "mkdir $dir/home", "cmd /c mklink /j $dir\\home\\%USERNAME% %USERPROFILE%" ]
 }
