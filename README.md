@@ -25,6 +25,7 @@ scoop install user/noextrun
 scoop install user/offzip
 scoop install user/privoxy
 scoop install user/spacesniffer
+scoop install user/apimonitor
 ```
 
 ##### Bazel
