@@ -1,0 +1,17 @@
+{
+    "homepage": "http://www.terraspace.co.uk/uasm.html",
+    "version": "2.46.9",
+    "license": "Sybase Open Watcom Public License",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.terraspace.co.uk/uasm246_x64.zip",
+            "hash": "4e443566c07c5793bccaa3133ea048cfd61a7b04e5b01823896cd91ecefeef31",
+            "bin": [ "uasm64.exe", [ "uasm64.exe", "uasm", "" ] ]
+        },
+        "32bit": {
+            "url": "http://www.terraspace.co.uk/uasm246_x86.zip",
+            "hash": "8c6b202d75a69e62ececa55c94c4ebc66b60850ccc938749ec69c8f3510014e4",
+            "bin": [ "uasm32.exe", [ "uasm32.exe", "uasm", "" ] ]
+        }
+    }
+}
