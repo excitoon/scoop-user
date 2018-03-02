@@ -27,6 +27,7 @@ scoop install user/privoxy
 scoop install user/spacesniffer
 scoop install user/apimonitor
 scoop install user/uasm
+scoop install user/flux
 ```
 
 ##### Bazel
