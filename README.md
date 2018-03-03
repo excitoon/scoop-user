@@ -28,6 +28,7 @@ scoop install user/spacesniffer
 scoop install user/apimonitor
 scoop install user/uasm
 scoop install user/flux
+scoop install user/wdiff
 ```
 
 ##### Bazel
