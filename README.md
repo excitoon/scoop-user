@@ -35,6 +35,7 @@ scoop install user/innosetup
 scoop install user/cmake
 scoop install user/unshield
 scoop install user/zlib-dev
+scoop install user/libiconv-dev
 ```
 
 ##### Bazel
