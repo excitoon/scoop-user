@@ -34,6 +34,7 @@ scoop install user/ida
 scoop install user/innosetup
 scoop install user/cmake
 scoop install user/unshield
+scoop install user/zlib-dev
 ```
 
 ##### Bazel
