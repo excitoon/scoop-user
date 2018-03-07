@@ -32,6 +32,7 @@ scoop install user/wdiff
 scoop install user/c99-to-c89
 scoop install user/ida
 scoop install user/innosetup
+scoop install user/cmake
 ```
 
 ##### Bazel
