@@ -1,12 +1,12 @@
 {
     "homepage": "https://bazel.build/",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "license": "Apache License 2.0",
     "depends": [ "python27", "msys2", "git", "curl", "infozip", "unzip" ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KasperskyLab/bazel/releases/download/0.11.0/bazel-0.11.0-windows-x86_64.zip",
-            "hash": "2d3042b3fd0bb947d2d0e7721c1895898eddfcad2dfb75bfe0df5d8a24ca294d"
+            "url": "https://github.com/KasperskyLab/bazel/releases/download/0.11.1/bazel-0.11.1.zip",
+            "hash": "2540fce1eeeb54b34b7e5ee6faca54b627e2dfbca707c707ea31f69f8a0616ee"
         }
     },
     "env_set": {
