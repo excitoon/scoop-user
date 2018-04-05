@@ -37,6 +37,7 @@ scoop install user/unshield
 scoop install user/zlib-dev
 scoop install user/libiconv-dev
 scoop install user/sed
+scoop install user/git # Git for Windows 2.17+ with much faster git-lfs 2.4.0+
 ```
 
 ##### Bazel
