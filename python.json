@@ -1,0 +1,38 @@
+﻿{
+    "homepage": "https://www.python.org/",
+    "description": "Python is an interpreted high-level programming language for general-purpose programming.",
+    "version": "3.6.5",
+    "license": "PSF License Agreement",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://www.python.org/ftp/python/3.6.5/python-3.6.5-embed-amd64.zip",
+                "http://r.windows.random.supplies/get-pip.py"
+            ],
+            "hash": [
+                "dfb476fabd20f617c8a5be58ca3e55844c8310710c6ff0dd25486d1d03c95a28",
+                "ef0d74edcacf495c24d2bb2fa5e7ae6f23abc6ff0171180d9d868596057f44f8"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://www.python.org/ftp/python/3.6.5/python-3.6.5-embed-win32.zip",
+                "http://r.windows.random.supplies/get-pip.py"
+            ],
+            "hash": [
+                "f654c055817b5a2c5b050d744833d95d621aeaa507b5c28b4840712821a70891",
+                "ef0d74edcacf495c24d2bb2fa5e7ae6f23abc6ff0171180d9d868596057f44f8"
+            ]
+        }
+    },
+    "pre_install": [
+        "Add-Content $dir/python36._pth \"import site\"",
+        "Start-Process $dir\\python.exe -ArgumentList $dir\\get-pip.py -wait"
+    ],
+    "bin": [
+        "python.exe",
+        [ "python.exe", "python3" ],
+        [ "python.exe", "pip", "-m", "pip" ],
+        [ "python.exe", "pip3", "-m", "pip" ]
+    ]
+}
