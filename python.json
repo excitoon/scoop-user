@@ -26,7 +26,9 @@
         }
     },
     "pre_install": [
-        "Add-Content $dir/python36._pth \"import site\"",
+        "Add-Content $dir\\python36._pth \"import site\"",
+        "Expand-Archive $dir\\python36.zip -DestinationPath $dir",
+        "Remove-Item $dir\\python36.zip",
         "Start-Process $dir\\python.exe -ArgumentList $dir\\get-pip.py -wait"
     ],
     "bin": [
