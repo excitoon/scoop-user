@@ -40,6 +40,7 @@ scoop install user/sed
 scoop install user/git # Git for Windows 2.17+ with much faster git-lfs 2.4.0+
 scoop install user/python # Portable Python with pip
 scoop install user/flex
+scoop install user/bison
 ```
 
 ##### Bazel
