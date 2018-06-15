@@ -43,6 +43,7 @@ scoop install user/flex
 scoop install user/bison
 scoop install user/doxygen # Doxygen (long paths)
 scoop install user/gitbrute
+scoop install user/apkstudio
 ```
 
 ##### Bazel
