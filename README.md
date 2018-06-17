@@ -46,6 +46,7 @@ scoop install user/gitbrute
 scoop install user/apkstudio
 scoop install user/nmap
 scoop install user/qview
+scoop install user/dosbox
 ```
 
 ##### Bazel
