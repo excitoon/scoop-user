@@ -45,6 +45,7 @@ scoop install user/doxygen # Doxygen (long paths)
 scoop install user/gitbrute
 scoop install user/apkstudio
 scoop install user/nmap
+scoop install user/qview
 ```
 
 ##### Bazel
