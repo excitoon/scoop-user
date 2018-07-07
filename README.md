@@ -47,6 +47,7 @@ scoop install user/apkstudio
 scoop install user/nmap
 scoop install user/qview
 scoop install user/dosbox
+scoop install user/esniper
 ```
 
 ##### Bazel
