@@ -49,6 +49,7 @@ scoop install user/qview
 scoop install user/dosbox
 scoop install user/esniper
 scoop install user/gcc-msp430
+scoop install user/gpxsee
 ```
 
 ##### Bazel
