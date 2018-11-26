@@ -50,6 +50,7 @@ scoop install user/dosbox
 scoop install user/esniper
 scoop install user/gcc-msp430
 scoop install user/gpxsee
+scoop install user/ghostscript
 ```
 
 ##### Bazel
