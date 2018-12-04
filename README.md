@@ -53,6 +53,7 @@ scoop install user/gpxsee
 scoop install user/ghostscript
 scoop install user/caffeine
 scoop install user/sox
+scoop install user/curl
 ```
 
 ##### Bazel
