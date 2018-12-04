@@ -52,6 +52,7 @@ scoop install user/gcc-msp430
 scoop install user/gpxsee
 scoop install user/ghostscript
 scoop install user/caffeine
+scoop install user/sox
 ```
 
 ##### Bazel
