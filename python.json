@@ -26,9 +26,11 @@
         }
     },
     "pre_install": [
-        "Add-Content $dir\\python36._pth \"import site\"",
         "Expand-Archive $dir\\python36.zip -DestinationPath $dir",
         "Remove-Item $dir\\python36.zip",
+        "Rename-Item $dir\\python36._pth $dir\\python36.__pth"
+    ],
+    "post_install": [
         "Start-Process $dir\\python.exe -ArgumentList $dir\\get-pip.py -wait"
     ],
     "bin": [
@@ -36,5 +38,8 @@
         [ "python.exe", "python3" ],
         [ "python.exe", "pip", "-m", "pip" ],
         [ "python.exe", "pip3", "-m", "pip" ]
-    ]
+    ],
+    "env_set": {
+        "PYTHONHOME": "$(appdir python)\\current"
+    }
 }
