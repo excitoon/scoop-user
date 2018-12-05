@@ -54,11 +54,13 @@ scoop install user/ghostscript
 scoop install user/caffeine
 scoop install user/sox
 scoop install user/curl
+scoop install user/msys2
 ```
 
 ##### Bazel
 
 ```
 scoop bucket add versions # For Python 2.7
+scoop install user/msys2
 scoop install user/bazel
 ```
