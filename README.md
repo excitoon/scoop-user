@@ -55,6 +55,7 @@ scoop install user/caffeine
 scoop install user/sox
 scoop install user/curl
 scoop install user/msys2
+scoop install user/gcc7
 ```
 
 ##### Bazel
