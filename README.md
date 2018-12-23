@@ -57,6 +57,7 @@ scoop install user/curl
 scoop install user/msys2
 scoop install user/gcc7
 scoop install user/gcc73
+scoop install user/gcc72
 ```
 
 ##### Bazel
