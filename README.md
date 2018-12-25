@@ -60,6 +60,7 @@ scoop install user/gcc73
 scoop install user/gcc72
 scoop install user/gcc71
 scoop install user/bazel0.21.0
+scoop install user/bazel0.20.0
 ```
 
 ##### Bazel
