@@ -63,6 +63,7 @@ scoop install user/bazel0.21.0
 scoop install user/bazel0.20.0
 scoop install user/bazel0.19.2
 scoop install user/gcc
+scoop install user/gcc8
 ```
 
 ##### Bazel
