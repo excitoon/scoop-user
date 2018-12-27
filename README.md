@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/uthv5of5k981cq8u?svg=true)](https://ci.appveyor.com/project/excitoon/scoop-user)
+
 #### Adding repository
 
 ```
