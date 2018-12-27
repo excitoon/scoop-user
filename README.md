@@ -65,6 +65,7 @@ scoop install user/bazel0.19.2
 scoop install user/gcc
 scoop install user/gcc8
 scoop install user/gcc81
+scoop install user/gcc-ia32
 ```
 
 ##### Bazel
