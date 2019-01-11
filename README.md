@@ -68,6 +68,7 @@ scoop install user/gcc
 scoop install user/gcc8
 scoop install user/gcc81
 scoop install user/gcc-ia32
+scoop install user/far
 ```
 
 ##### Bazel
