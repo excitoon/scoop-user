@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KasperskyLab/bazel/releases/download/0.20.0-relaxed-fingerprints/bazel-0.20.0-relaxed-fingerprints-windows-x86_64.zip",
-            "hash": "226a0d72fd4eced5fd735f032863b2a7e6d4d17b67a288489ef0fe522bec88da"
+            "url": "https://github.com/KasperskyLab/bazel/releases/download/0.20.0-inl-relaxed-fingerprints/bazel-0.20.0-inl-relaxed-fingerprints-windows-x86_64.zip",
+            "hash": "286ff1abbf5da1777e92b80a4b120c620e293d75621a0182b12867a3014cb2d2"
         }
     },
     "env_set": {
