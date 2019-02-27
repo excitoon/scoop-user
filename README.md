@@ -71,6 +71,7 @@ scoop install user/gcc-ia32
 scoop install user/far
 scoop install user/far-debug
 scoop install user/bazel0.22.0
+scoop install user/bazel0.23.0
 ```
 
 ##### Bazel
