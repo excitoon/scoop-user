@@ -1,6 +1,6 @@
 {
     "homepage": "https://bazel.build/",
-    "version": "0.22.0",
+    "version": "0.23.0",
     "license": "Apache License 2.0",
     "depends": [
         "python27",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KasperskyLab/bazel/releases/download/0.22.0-inl-relaxed-fingerprints/bazel-0.22.0-inl-relaxed-fingerprints-windows-x86_64.zip",
-            "hash": "8a43c258c54e16edc13f74341b28a8846d7281b435a27f863c730d7fc60718a7"
+            "url": "https://github.com/KasperskyLab/bazel/releases/download/0.23.0-relaxed-fingerprints/bazel-0.23.0-relaxed-fingerprints-windows-x86_64.zip",
+            "hash": "4549873bff7f19a1fe60e51bcecc5b32b24ea01bf91ce88823fd9f67f01e2e30"
         }
     },
     "env_set": {
